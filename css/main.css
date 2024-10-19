@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1300px;
+    padding: 0 10px;
+}
+
+/* header */
+header{
+    background-color: #0A121F;
+    padding: 24px;
+}
+.headerOneDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerOneDivLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h4{
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 22.5px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #3A68B8;
+}
+button{
+    padding: 15px 30px;
+    background-color: #3A68B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0A121F;
+    border: 2px solid #3A68B8;
+
+}
+
+/* section one */
+.sectionOne{
+    background-color: #08101E;
+    padding: 20px 0 60px 0;
+}
+.sectionOneDivMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.genaretion{
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.intelligence{
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.ipsum{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sectionOneImages{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sectionOne button{
+    font-size: 22px;
+    font-weight: 600;
+}
+
